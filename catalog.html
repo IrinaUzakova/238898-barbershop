@@ -42,30 +42,31 @@
 			<a href="#">Магазин</a>
 			<span class="active">Средства для ухода</span>
 		</div>
-		<form class="filter"action="https://echo.htmlacademy.ru" method="post">
+		<form class="filter" action="https://echo.htmlacademy.ru" method="post">
 			<div class="filter_group">
 				<h2 class="filter_title">Производители:</h2>
+				<input id="baxter_of_california" type="checkbox" name="baxter_of_california" >
 				<label for="baxter_of_california">Baxter of California</label>
+				<input id="mr_natty" type="checkbox" name="mr_natty">
 				<label  for="mr_natty">Mr Natty</label>
+				<input id="suavecito" type="checkbox" name="suavecito" >
 				<label  for="suavecito">Suavecito</label>
+				<input id="malin_goetz" type="checkbox" name="malin_goetz">
 				<label  for="malin_goetz">Malin+Goetz</label>
+				<input id="murrays" type="checkbox" name="murrays">
 				<label  for="murrays">Murray’s</label>
+				<input id="american_crew" type="checkbox" name="american_crew" >
 				<label  for="american_crew">American Crew</label>
-				<input type="checkbox" name="baxter_of_california" >
-				<input type="checkbox" name="mr_natty">
-				<input type="checkbox" name="suavecito" >
-				<input type="checkbox" name="malin_goetz">
-				<input type="checkbox" name="murrays">
-				<input type="checkbox" name="american_crew" >
 			</div>
 			<div class="filter_group">
 				<h2 class="filter_title">Группы товаров:</h2>
-				<label>Бритвенные  принадлежности</label>
-				<label>Средства для ухода</label>
-				<label>Аксессуары</label>
-				<input type="radio" name="filter_radio" value="shaving_products">
-				<input type="radio" name="filter_radio" value="products_for_care" >
-				<input type="radio" name="filter_radio" value="accessories">
+				<input id="shaving_products" type="radio" name="filter_radio" value="shaving_products">
+				<label for="shaving_products">Бритвенные  принадлежности</label>
+				<input id="products_for_care" type="radio" name="filter_radio" value="products_for_care" >
+				<label for="products_for_care">Средства для ухода</label>
+				<input id="accessories" type="radio" name="filter_radio" value="accessories">
+				<label for="accessories">Аксессуары</label>
+				
 			</div>
 			<button class="button btn_apply_filters" type="submit">
 				Показать
