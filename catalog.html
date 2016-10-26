@@ -45,30 +45,30 @@
 		<form class="filter" action="https://echo.htmlacademy.ru" method="post">
 			<div class="filter_group">
 				<h2 class="filter_title">Производители:</h2>
-				<input id="baxter_of_california" type="checkbox" name="baxter_of_california" >
+				<input id="baxter_of_california" type="checkbox" name="baxter_of_california" checked>
 				<label for="baxter_of_california">Baxter of California</label>
 				<input id="mr_natty" type="checkbox" name="mr_natty">
 				<label  for="mr_natty">Mr Natty</label>
-				<input id="suavecito" type="checkbox" name="suavecito" >
+				<input id="suavecito" type="checkbox" name="suavecito" checked>
 				<label  for="suavecito">Suavecito</label>
 				<input id="malin_goetz" type="checkbox" name="malin_goetz">
 				<label  for="malin_goetz">Malin+Goetz</label>
 				<input id="murrays" type="checkbox" name="murrays">
 				<label  for="murrays">Murray’s</label>
-				<input id="american_crew" type="checkbox" name="american_crew" >
+				<input id="american_crew" type="checkbox" name="american_crew" checked>
 				<label  for="american_crew">American Crew</label>
 			</div>
 			<div class="filter_group">
 				<h2 class="filter_title">Группы товаров:</h2>
 				<input id="shaving_products" type="radio" name="filter_radio" value="shaving_products">
 				<label for="shaving_products">Бритвенные  принадлежности</label>
-				<input id="products_for_care" type="radio" name="filter_radio" value="products_for_care" >
+				<input id="products_for_care" type="radio" name="filter_radio" value="products_for_care" checked>
 				<label for="products_for_care">Средства для ухода</label>
 				<input id="accessories" type="radio" name="filter_radio" value="accessories">
 				<label for="accessories">Аксессуары</label>
 				
 			</div>
-			<button class="button btn_apply_filters" type="submit">
+			<button class="btn filter_btn" type="submit">
 				Показать
 			</button>
 		</form>
@@ -76,46 +76,46 @@
 			<article class="catalog_item">
 				<a class="catalog_img" href="#"><img src="http://placehold.it/150x100" width="150" height="150" alt="Набор для путешествий  «Baxter of California»"></a>
 				<a href="#">Набор для путешествий  «Baxter of California»</a>
-				<p class="price">2 900 руб.</p>
-				<a class="button btn_buy" href="#">Купить</a>
+				<span class="price">2 900 руб.</span>
+				<a class="btn btn_buy" href="#">Купить</a>
 			</article>
 			<article class="catalog_item">
 				<a  class="catalog_img" href="#"><img src="http://placehold.it/150x100" width="150" height="150" alt="Увлажняющий кондиционер  «Baxter of California»"></a>
 				<a href="#">Увлажняющий кондиционер  «Baxter of California»</a>
-				<p class="price">750 руб.</p>
-				<a class="button btn_buy" href="#">Купить</a>
+				<span class="price">750 руб.</span>
+				<a class="btn btn_buy" href="#">Купить</a>
 			</article>
 			<article class="catalog_item">
 				<a class="catalog_img" href="#"><img src="http://placehold.it/150x100" width="150" height="150" alt="Гель для волос «SUAVECITO»"></a>
 				<a href="#">Гель для волос «SUAVECITO»</a>
-				<p class="price">290 руб.</p>
-				<a class="button btn_buy" href="#">Купить</a>
+				<span class="price">290 руб.</span>
+				<a class="btn btn_buy" href="#">Купить</a>
 			</article>
 			<article class="catalog_item">
 				<a class="catalog_img" href="#"><img src="http://placehold.it/150x100" width="150" height="150" alt="Глина для укладки волос  «American crew»"></a>
 				<a href="#">Глина для укладки волос  «American crew»</a>
-				<p class="price">500 руб.</p>
-				<a class="button btn_buy" href="#">Купить</a>
+				<span class="price">500 руб.</span>
+				<a class="btn btn_buy" href="#">Купить</a>
 			</article>
 			<article class="catalog_item">
 				<a class="catalog_img" href="#"><img src="http://placehold.it/150x100" width="150" height="150" alt="Гель для волос «AMERICAN CREW»"></a>
 				<a href="#">Гель для волос «AMERICAN CREW»</a>
-				<p class="price">300 руб.</p>
-				<a class="button btn_buy" href="#">Купить</a>
+				<span class="price">300 руб.</span>
+				<a class="btn btn_buy" href="#">Купить</a>
 			</article>
 			<article class="catalog_item">
 				<a class="catalog_img" href="#"><img src="http://placehold.it/150x100" width="150" height="150" alt="Набор для бритья «Baxter of California»"></a>
 				<a href="#">Набор для бритья «Baxter of California»</a>
-				<p class="price">3 900 руб.</p>
-				<a class="button btn_buy" href="#">Купить</a>
+				<span class="price">3 900 руб.</span>
+				<a class="btn btn_buy" href="#">Купить</a>
 			</article>
 		</section>
-		<div class="pagination">
-			<a class="button btn_pagination" href="#">1</a>
-			<span class="button active">2</span>
-			<a class="button btn_pagination" href="#">3</a>
-			<a class="button btn_pagination" href="#">4</a>
-		</div>
+		<ul class="pagination">
+			<li><a class="btn btn_pagination" href="#">1</a></li>
+			<li>2</li>
+			<li><a class="btn btn_pagination" href="#">3</a></li>
+			<li><a class="btn btn_pagination" href="#">4</a></li>
+		</ul>
 	</main>
 	
 	<footer class="footer">
@@ -128,13 +128,13 @@
 			</div>
 			<div class="footer_social">
 				<p>Давайте дружить!</p>
-				<a class="button btn_social_vk" href="#">Вконтакте</a>
-				<a class="button btn_social_fb" href="#">Фейсбук</a>
-				<a class="button btn_social_inst" href="#">Инстаграм</a>
+				<a class="btn btn_social_vk" href="#">Вконтакте</a>
+				<a class="btn btn_social_fb" href="#">Фейсбук</a>
+				<a class="btn btn_social_inst" href="#">Инстаграм</a>
 			</div>
 			<div class="footer-copyright">
 				<p>Разработано:</p>
-				<a class="button " href="https://htmlacademy.ru">HTML Academy</a>
+				<a class="btn " href="https://htmlacademy.ru">HTML Academy</a>
 			</div>
 		</div>
 	</footer>
